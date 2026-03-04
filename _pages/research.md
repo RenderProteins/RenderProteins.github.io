@@ -1,6 +1,6 @@
 ---
 permalink: /research/
-title: "Research"
+title: "Why"
 toc: true
 toc_label: "On This Page"
 toc_icon: "list"

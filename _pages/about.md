@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-title: "About Render"
+title: "The Initiative"
 toc: true
 toc_label: "On This Page"
 toc_icon: "list"

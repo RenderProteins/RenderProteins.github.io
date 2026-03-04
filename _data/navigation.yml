@@ -1,7 +1,7 @@
 main:
-  - title: "About"
+  - title: "The Initiative"
     url: /about/
-  - title: "Research"
+  - title: "Why"
     url: /research/
   - title: "Members"
     url: /members/

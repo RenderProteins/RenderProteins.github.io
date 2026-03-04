@@ -24,7 +24,7 @@ feature_row_philosophy:
     excerpt: >
       Make dynamic structural data so easy and valuable that it becomes standard practice in biological research. We believe changing the ecosystem requires not just new methods, but new ways of working together as scientists.
     url: /about/
-    btn_label: "About Render"
+    btn_label: "The Initiative"
     btn_class: "btn--primary"
 
 ---
