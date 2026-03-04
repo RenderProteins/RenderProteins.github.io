@@ -6,9 +6,9 @@ author_profile: false
 <style>
 /* Reset page padding that minimal-mistakes adds */
 .page__content { padding: 0 !important; background: transparent !important; }
-#main { background: #060e1a; padding: 0 !important; float: none !important; width: 100% !important; }
-.page { background: #060e1a; }
-.initial-content { background: #060e1a; }
+#main { background: #0d1f35; padding: 0 !important; float: none !important; width: 100% !important; }
+.page { background: #0d1f35; }
+.initial-content { background: #0d1f35; }
 
 /* Atmospheric background */
 .atm { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
@@ -47,7 +47,7 @@ author_profile: false
   font-weight: 300 !important;
   max-width: 820px;
   letter-spacing: -.02em !important;
-  color: #e2f0f5 !important;
+  color: #f0f7fa !important;
   border: none !important;
   animation: rn-fu .7s .3s both;
 }
@@ -59,7 +59,7 @@ author_profile: false
 }
 .rn-sub {
   font-family: 'Manrope', sans-serif;
-  font-size: 1.12rem; color: #7ba8bc;
+  font-size: 1.12rem; color: #a8c8d8;
   max-width: 600px; margin-top: 2rem;
   font-weight: 300; line-height: 1.85;
   animation: rn-fu .7s .5s both;
@@ -85,7 +85,7 @@ author_profile: false
   font-family: 'Manrope', sans-serif;
   font-size: .86rem; font-weight: 600;
   text-decoration: none; letter-spacing: .02em;
-  background: transparent; color: #7ba8bc !important;
+  background: transparent; color: #a8c8d8 !important;
   border: 1px solid rgba(13,148,136,.15);
   transition: all .3s;
 }
@@ -105,7 +105,7 @@ author_profile: false
   font-family: 'Fraunces', serif !important;
   font-size: clamp(1.2rem, 2.5vw, 1.55rem) !important;
   line-height: 1.5 !important; font-weight: 300 !important;
-  color: #7ba8bc !important;
+  color: #a8c8d8 !important;
   max-width: 750px; margin: 0 auto;
 }
 .rn-mission-inner strong { color: #2dd4bf !important; font-weight: 600 !important; }
@@ -132,8 +132,3 @@ author_profile: false
   </div>
 </div>
 
-<div class="rn-mission">
-  <div class="rn-mission-inner">
-    <p></p>
-  </div>
-</div>
