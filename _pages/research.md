@@ -12,11 +12,9 @@ toc_sticky: true
 
 Function arises from conformational ensembles — but is interpreted using single, static structures. The biggest questions in human health demand that we understand not only what molecules look like, but how they move.
 
-![diffuse scattering signals](/assets/images/diffuse_signals.png){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
-
 To unlock the next frontier of advances, we need new methods, more experimental data, and better ways to model and encode protein dynamics. By openly building tools and methods, we engage the entire community to contribute, enabling the scale and diversity of data needed to uncover biological principles.
 
-## Our Research Questions
+## Our Key Research Questions
 
 **01** &nbsp; What data are we missing, and how do we accelerate the technologies to capture it?
 
@@ -28,8 +26,5 @@ To unlock the next frontier of advances, we need new methods, more experimental 
 
 ---
 
-*What makes a designed enzyme functional?*
-
 ---
 
-![MD simulated diffuse scattering](/assets/images/20250805_Mac1_diffuse_crop.png){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
