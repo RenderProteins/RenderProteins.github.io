@@ -10,13 +10,9 @@ toc_sticky: true
 
 ## Critical biology is invisible to static structures
 
-Function arises from conformational ensembles — but is interpreted using single, static structures. The biggest questions in human health demand that we understand not only what molecules look like, but how they move.
-
-To unlock the next frontier of advances, we need new methods, more experimental data, and better ways to model and encode protein dynamics. By openly building tools and methods, we engage the entire community to contribute, enabling the scale and diversity of data needed to uncover biological principles.
+Static structures have transformed our understanding of life — but they are snapshots of molecules that are fundamentally in motion. Answering these questions will unlock new ways to understand disease, design drugs that work against resistant targets, and engineer proteins with precise, tunable function. The stakes are high: dynamics are not a detail, they are the mechanism.
 
 ## Key Research Questions
-
-These questions define the frontier of dynamic structural biology. Static structures have transformed our understanding of life — but they are snapshots of molecules that are fundamentally in motion. Answering these questions will unlock new ways to understand disease, design drugs that work against resistant targets, and engineer proteins with precise, tunable function. The stakes are high: dynamics are not a detail, they are the mechanism.
 
 <div style="display: flex; flex-direction: column; gap: 1rem; margin: 1.5rem 0;">
 
