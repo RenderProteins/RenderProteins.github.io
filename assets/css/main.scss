@@ -3,55 +3,134 @@
 
 @import "minimal-mistakes";
 
-/* ==== OVERRIDES ==== */
-html, body {
-  background: #ffffff;
+/* ============================================================
+   DESIGN TOKENS
+   ============================================================ */
+:root {
+  --bg:        #07080c;
+  --bg-card:   rgba(16, 18, 28, 0.65);
+  --indigo:    #6366f1;
+  --indigo-l:  #a5b4fc;
+  --violet:    #8b5cf6;
+  --txt:       #eef0f6;
+  --t2:        #9399b2;
+  --t3:        #5b6178;
+  --bdr:       rgba(147, 153, 178, 0.08);
+  --bdr-h:     rgba(99, 102, 241, 0.25);
+  --accent:    #e35821;
 }
 
-/* ── Navigation Bar ── */
+/* ============================================================
+   BASE
+   ============================================================ */
+html, body {
+  background: var(--bg) !important;
+  color: var(--txt) !important;
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 300;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============================================================
+   TYPOGRAPHY
+   ============================================================ */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fraunces', serif !important;
+  font-weight: 400 !important;
+  letter-spacing: -0.015em;
+  color: var(--txt) !important;
+}
+
+h1 { font-size: clamp(2.2rem, 5vw, 4rem) !important; line-height: 1.08 !important; }
+h2 { font-size: clamp(1.6rem, 3vw, 2.5rem) !important; line-height: 1.15 !important; }
+h3 { font-size: clamp(1.1rem, 2vw, 1.4rem) !important; line-height: 1.25 !important; }
+
+p, li, td, th {
+  font-family: 'Manrope', sans-serif !important;
+  color: var(--t2);
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+strong { color: var(--txt); font-weight: 600; }
+em { color: var(--indigo-l); font-style: italic; }
+
+code, pre, .highlight {
+  font-family: 'IBM Plex Mono', monospace !important;
+  font-size: 0.82rem !important;
+  background: rgba(99, 102, 241, 0.06) !important;
+  border: 1px solid var(--bdr) !important;
+  border-radius: 6px;
+  color: var(--indigo-l) !important;
+}
+
+a {
+  color: var(--indigo-l) !important;
+  text-decoration: none;
+  transition: color 0.2s;
+  &:hover { color: var(--txt) !important; }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--bdr);
+  margin: 2rem 0;
+}
+
+/* ============================================================
+   NAVIGATION
+   ============================================================ */
 .masthead {
+  background: rgba(7, 8, 12, 0.88) !important;
+  backdrop-filter: blur(24px) saturate(1.2);
+  border-bottom: 1px solid var(--bdr) !important;
+  box-shadow: none !important;
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  background: linear-gradient(to bottom, #e35821 0%, #c94a1a 100%) !important;
 }
 
-.greedy-nav,
-.hidden-links {
+body .masthead,
+body .masthead .greedy-nav,
+body .masthead .hidden-links {
   background: transparent !important;
 }
 
-.masthead,
-.greedy-nav,
-.masthead a,
-.greedy-nav a,
-.masthead button,
-.greedy-nav button,
-.masthead .navicon,
-.greedy-nav .navicon,
-.masthead svg,
-.greedy-nav svg {
-  color: #ffffff !important;
-  fill: #ffffff !important;
+.masthead__inner-wrap {
+  background: transparent !important;
+}
+
+.greedy-nav, .hidden-links {
+  background: transparent !important;
 }
 
 .site-title {
-  font-size: 1.25rem !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.02em;
+  font-family: 'Fraunces', serif !important;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.02em !important;
+  color: var(--txt) !important;
 }
 
-.greedy-nav a {
-  transition: transform 0.2s ease, font-weight 0.2s ease, color 0.2s ease;
-}
+.greedy-nav a,
+.masthead a {
+  color: var(--t3) !important;
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 0.72rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.1em !important;
+  text-transform: uppercase !important;
+  transition: color 0.25s !important;
 
-.greedy-nav a:hover {
-  text-decoration: none !important;
-  border-bottom: none !important;
-  font-weight: 700 !important;
-  transform: scale(1.05);
-  color: #1e3a5f !important;
+  &:hover {
+    color: var(--indigo-l) !important;
+    transform: none !important;
+    font-weight: 600 !important;
+    border-bottom: none !important;
+    text-decoration: none !important;
+  }
 }
 
 .greedy-nav a::after,
@@ -59,39 +138,225 @@ html, body {
   display: none !important;
 }
 
-/* ── Hero ── */
-.page__hero--overlay {
-  margin-top: 0;
+.masthead, .greedy-nav, .masthead button,
+.greedy-nav button, .masthead .navicon, .greedy-nav .navicon,
+.masthead svg, .greedy-nav svg {
+  fill: var(--t3) !important;
 }
 
-/* ── Members Page ── */
+/* ============================================================
+   HERO / SPLASH
+   ============================================================ */
+.initial-content { margin-top: 0; padding-top: 0; }
+
+.page__hero--overlay {
+  margin-top: 0;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: var(--bg) !important;
+
+  .page__hero-caption,
+  .page__title {
+    font-family: 'Fraunces', serif !important;
+    font-weight: 300 !important;
+    font-size: clamp(2.4rem, 5.5vw, 4.5rem) !important;
+    line-height: 1.08 !important;
+    letter-spacing: -0.02em !important;
+  }
+
+  .page__lead {
+    font-family: 'Manrope', sans-serif !important;
+    font-size: 1.08rem !important;
+    color: var(--t2) !important;
+    font-weight: 300 !important;
+    max-width: 600px;
+  }
+}
+
+/* feature row excerpt text */
+.archive__item-excerpt,
+.feature__item .archive__item-excerpt {
+  font-family: 'Manrope', sans-serif !important;
+  color: var(--t2) !important;
+  font-weight: 300 !important;
+  font-size: 0.95rem !important;
+  line-height: 1.75 !important;
+}
+
+.feature__item .archive__item-title {
+  font-family: 'Fraunces', serif !important;
+  font-size: clamp(1.3rem, 2.5vw, 1.9rem) !important;
+  font-weight: 400 !important;
+  color: var(--txt) !important;
+}
+
+/* ============================================================
+   FEATURE ROWS (homepage)
+   ============================================================ */
+.feature__wrapper {
+  background: var(--bg);
+  border-top: 1px solid var(--bdr);
+  padding: 4rem 0;
+}
+
+.feature__item {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--bdr) !important;
+  border-radius: 12px !important;
+  padding: 2rem !important;
+  transition: border-color 0.3s, transform 0.3s;
+
+  &:hover {
+    border-color: var(--bdr-h) !important;
+    transform: translateY(-3px);
+  }
+}
+
+/* ============================================================
+   PAGE CONTENT
+   ============================================================ */
+.page__content {
+  background: var(--bg);
+  color: var(--t2);
+
+  h2 {
+    border-bottom: 1px solid var(--bdr) !important;
+    padding-bottom: 0.4em;
+    margin-top: 2.5rem;
+  }
+
+  h3 { margin-top: 1.8rem; }
+
+  ol, ul { color: var(--t2); }
+
+  ol li, ul li {
+    padding: 0.3rem 0;
+  }
+
+  /* Numbered research questions */
+  ol > li {
+    font-family: 'Fraunces', serif !important;
+    font-size: 1.1rem !important;
+    font-weight: 300 !important;
+    color: var(--txt) !important;
+    line-height: 1.5 !important;
+    padding: 1rem 0 !important;
+    border-bottom: 1px solid var(--bdr);
+    list-style: none;
+    counter-increment: research-q;
+
+    &:last-child { border-bottom: none; }
+  }
+
+  strong {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+    color: var(--indigo) !important;
+    font-weight: 500;
+  }
+
+  blockquote {
+    border-left: 3px solid var(--indigo);
+    background: rgba(99, 102, 241, 0.05);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.5rem;
+    color: var(--t2);
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 1.05rem;
+  }
+
+  em {
+    font-family: 'Fraunces', serif;
+    font-size: 1.1rem;
+    color: var(--indigo-l);
+  }
+}
+
+.page__title {
+  font-family: 'Fraunces', serif !important;
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem) !important;
+  font-weight: 400 !important;
+  color: var(--txt) !important;
+  letter-spacing: -0.015em !important;
+}
+
+/* ============================================================
+   SIDEBAR + TOC
+   ============================================================ */
+.sidebar {
+  background: transparent;
+}
+
+.toc {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--bdr) !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  overflow: hidden;
+}
+
+.toc .nav__title {
+  background: rgba(99, 102, 241, 0.12) !important;
+  font-family: 'IBM Plex Mono', monospace !important;
+  font-size: 0.65rem !important;
+  letter-spacing: 0.15em !important;
+  text-transform: uppercase !important;
+  color: var(--indigo-l) !important;
+  padding: 0.65rem 1rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.toc__menu a {
+  color: var(--t3) !important;
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 0.8rem !important;
+  font-weight: 500 !important;
+  border-bottom: none !important;
+  padding: 0.4rem 1rem;
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    background: rgba(99, 102, 241, 0.08) !important;
+    color: var(--indigo-l) !important;
+  }
+}
+
+.toc .active a {
+  background: rgba(99, 102, 241, 0.12) !important;
+  color: var(--indigo-l) !important;
+  font-weight: 600 !important;
+  border-left: 3px solid var(--indigo) !important;
+}
+
+.sidebar__right.sticky { top: 100px !important; }
+
+/* ============================================================
+   MEMBERS PAGE
+   ============================================================ */
 .members-layout {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 1.5rem;
   align-items: stretch;
 }
 
-.members-layout h2 {
-  margin-bottom: 0.5rem;
-}
-
-.left-col,
-.right-col,
-.card-column {
-  display: contents;
-}
+.left-col, .right-col, .card-column { display: contents; }
 
 .member-card {
   display: flex;
   align-items: center;
   gap: 1rem;
   padding: 1.25rem 1.5rem;
-  border-radius: 0.75rem;
-  background: #f6faff;
-  border: 1px solid #e6e4dd;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  background: var(--bg-card) !important;
+  border: 1px solid var(--bdr) !important;
+  box-shadow: none !important;
   height: 100%;
+  transition: border-color 0.3s;
+
+  &:hover { border-color: var(--bdr-h) !important; }
 }
 
 img.avatar {
@@ -101,110 +366,87 @@ img.avatar {
   object-fit: cover !important;
   display: block;
   flex-shrink: 0;
+  border: 2px solid var(--bdr) !important;
 }
 
 .info { line-height: 1.3; }
-.name { font-weight: 600; }
-.title { font-size: 0.875rem; color: #605f5b; }
-.group-heading { margin: 0 0 0.5rem; }
+.name { font-weight: 600 !important; color: var(--txt) !important; }
+.title { font-size: 0.82rem !important; color: var(--t3) !important; }
+.group-heading { margin: 0 0 0.5rem; color: var(--txt) !important; }
 
 @media (max-width: 768px) {
-  .members-layout {
-    grid-template-columns: 1fr;
+  .members-layout { grid-template-columns: 1fr; }
+}
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+.btn, .btn--primary, .btn--inverse {
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.04em !important;
+  border-radius: 6px !important;
+  padding: 0.8rem 1.8rem !important;
+  transition: all 0.25s !important;
+}
+
+.btn--primary {
+  background: var(--indigo) !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 2px 20px rgba(99, 102, 241, 0.2) !important;
+
+  &:hover {
+    background: #5558e8 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 35px rgba(99, 102, 241, 0.35) !important;
   }
 }
 
+/* ============================================================
+   FOOTER
+   ============================================================ */
+.page__footer {
+  background: var(--bg) !important;
+  border-top: 1px solid var(--bdr) !important;
+  color: var(--t3) !important;
 
-/* ── Remove white gap between nav and hero ── */
-.initial-content {
-  margin-top: 0;
-  padding-top: 0;
+  a, p, li { color: var(--t3) !important; font-size: 0.8rem !important; }
+  a:hover { color: var(--indigo-l) !important; }
 }
 
-.page__hero--overlay {
-  margin-top: 0;
-  padding-top: 3rem;
+/* ============================================================
+   MISC / UTILITY
+   ============================================================ */
+.archive__item-title a { color: var(--txt) !important; }
+.archive__item-excerpt { color: var(--t2) !important; }
+
+.page__meta, .page__date, .read-time {
+  font-family: 'IBM Plex Mono', monospace !important;
+  font-size: 0.68rem !important;
+  letter-spacing: 0.1em !important;
+  color: var(--t3) !important;
+  text-transform: uppercase;
 }
 
-/* ── Force gradient on masthead (higher specificity) ── */
-body .masthead {
-  background: linear-gradient(to bottom, #e35821 0%, #c94a1a 100%) !important;
-}
-
-body .masthead .greedy-nav,
-body .masthead .hidden-links {
-  background: transparent !important;
-}
-
-.masthead {
-  border-bottom: none !important;
-}
-
-/* ── Table of Contents (sidebar) ── */
-.toc {
-  background: #fafafa;
-  border: none !important;
-  border-radius: 0.75rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  overflow: hidden;
-}
-
-.toc .nav__title {
-  background: linear-gradient(135deg, #e35821 0%, #c94a1a 100%);
-  font-size: 0.8em;
-  letter-spacing: 0.04em;
-  padding: 0.65rem 1rem;
-  border-radius: 0.75rem 0.75rem 0 0;
-}
-
-.toc__menu a {
-  border-bottom: none;
-  padding: 0.4rem 1rem;
-  color: #4a4a4a;
+/* section label style (for use in content) */
+.section-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--indigo);
   font-weight: 500;
-  transition: background 0.15s ease, color 0.15s ease;
-  border-radius: 0.25rem;
+  display: block;
+  margin-bottom: 0.6rem;
 }
 
-.toc__menu a:hover {
-  background: rgba(227, 88, 33, 0.08);
-  color: #c94a1a;
+/* search */
+.search-content, .search__toggle, .greedy-nav .search__toggle {
+  color: var(--t3) !important;
+  fill: var(--t3) !important;
 }
 
-.toc .active a {
-  background: rgba(227, 88, 33, 0.12) !important;
-  color: #c94a1a !important;
-  font-weight: 600;
-  border-left: 3px solid #e35821;
-}
-
-.sidebar__right.sticky {
-  top: 100px !important;
-}
-
-.page__title {
-  font-size: 2em;
-  font-weight: 800;
-  color: #1e3a5f;
-}
-
-.page__content h2 {
-  border-bottom: 2px solid #e35821;
-  padding-bottom: 0.3em;
-}
-
-/* ── TOC tree lines ── */
-.toc__menu li ul {
-  position: relative;
-  margin-left: 0.5rem;
-  border-left: 1px solid #ddd;
-}
-
-.toc__menu li ul > li > a {
-  margin-left: -1px;
-  border-left: 2px solid transparent;
-}
-
-.toc__menu li ul > li > a:hover {
-  border-left: 2px solid #e35821;
-}
+/* skip links / focus */
+a:focus { outline: 2px solid var(--indigo); outline-offset: 3px; }
