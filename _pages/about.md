@@ -15,6 +15,9 @@ Biology is a study of motion and change — yet we interpret it through static s
 
 The biggest questions in human health demand that we understand not only what molecules look like, but how they move.
 
+To unlock the next frontier of advances, we need new methods, more experimental data, and better ways to model and encode protein dynamics. By openly building tools and methods, we engage the entire community to contribute, enabling the scale and diversity of data needed to uncover biological principles.
+
+
 ## Four Pillars of Transformation
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; margin: 1.5rem 0 2.5rem;">
