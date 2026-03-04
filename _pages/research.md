@@ -10,7 +10,7 @@ toc_sticky: true
 
 ## Critical biology is invisible to static structures
 
-Static structures have transformed our understanding of life — but they are snapshots of molecules that are fundamentally in motion. Answering these questions will unlock new ways to understand disease, design drugs that work against resistant targets, and engineer proteins with precise, tunable function. The stakes are high: dynamics are not a detail, they are the mechanism.
+Static structures have transformed our understanding of life — but they are snapshots of molecules that are fundamentally in motion. Answering these questions will unlock new ways to understand disease, design better drugs, and engineer proteins with precise, tunable function. 
 
 ## Biological Questions We Could Answer
 
@@ -30,7 +30,7 @@ Dynamic structural data opens the door to questions that static structures simpl
 
 </div>
 
-## Key Research Questions
+## Key Questions Driving Render
 
 <div style="display: flex; flex-direction: column; gap: 1rem; margin: 1.5rem 0;">
 
