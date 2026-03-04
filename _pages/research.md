@@ -28,6 +28,14 @@ Dynamic structural data opens the door to questions that static structures simpl
     <p style="margin: 0; color: #9399b2; line-height: 1.7;"></p>
   </div>
 
+  <div style="border: 1px solid rgba(52,211,153,.2); border-radius: 8px; padding: 1.25rem 1.5rem; background: rgba(52,211,153,.03);">
+    <p style="margin: 0 0 .4rem; font-weight: 700;">What makes a designed enzyme functional?</p>
+  </div>
+
+  <div style="border: 1px solid rgba(52,211,153,.2); border-radius: 8px; padding: 1.25rem 1.5rem; background: rgba(52,211,153,.03);">
+    <p style="margin: 0 0 .4rem; font-weight: 700;">How do mutations rewire a protein's motion to cause disease?</p>
+  </div>
+
 </div>
 
 ## Key Questions Driving Render
