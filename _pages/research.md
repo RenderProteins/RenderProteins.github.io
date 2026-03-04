@@ -1,10 +1,6 @@
 ---
 permalink: /research/
 title: "Why"
-toc: true
-toc_label: "On This Page"
-toc_icon: "list"
-toc_sticky: true
 ---
 
 
