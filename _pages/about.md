@@ -9,6 +9,12 @@ toc_sticky: true
 
 
 
+## Make the invisible visible
+
+Biology is a study of motion and change — yet we interpret it through static snapshots. Render is building the tools and infrastructure to make dynamic structural biology as routine, and ultimately more impactful, than static structural biology.
+
+The biggest questions in human health demand that we understand not only what molecules look like, but how they move.
+
 ## Four Pillars of Transformation
 
 <div style="display: flex; flex-wrap: wrap; gap: 1.25rem; margin: 1.5rem 0 2.5rem;">
@@ -38,12 +44,6 @@ toc_sticky: true
   </div>
 
 </div>
-
-## Make the invisible visible
-
-Biology is a study of motion and change — yet we interpret it through static snapshots. Render is building the tools and infrastructure to make dynamic structural biology as routine, and ultimately more impactful, than static structural biology.
-
-The biggest questions in human health demand that we understand not only what molecules look like, but how they move.
 
 ## A distributed team
 
