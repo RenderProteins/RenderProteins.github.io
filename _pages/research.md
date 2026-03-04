@@ -25,7 +25,7 @@ Dynamic structural data opens the door to questions that static structures simpl
 
   <div style="border: 1px solid rgba(52,211,153,.2); border-radius: 8px; padding: 1.25rem 1.5rem; background: rgba(52,211,153,.03);">
     <p style="margin: 0 0 .4rem; font-weight: 700;">How can dynamics be deliberately engineered or optimized? What makes a designed enzyme functional?</p>
-    <p style="margin: 0; color: #9399b2; line-height: 1.7;">Designed proteins often fail not because of incorrect sequence or fold, but because the dynamics are wrong. Function requires the right motions at the right timescales — catalysis, allostery, and binding selectivity all depend on it. Learning to engineer dynamics is the next frontier of protein design.</p>
+    <p style="margin: 0; color: #9399b2; line-height: 1.7;">Designed proteins often fail not because of incorrect sequence or fold, but because the dynamics are wrong. catalysis, allostery, and binding selectivity all depend on it. Learning to engineer dynamics is the next frontier of protein design.</p>
   </div>
 
 </div>
