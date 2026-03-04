@@ -33,22 +33,3 @@ To unlock the next frontier of advances, we need new methods, more experimental 
 ---
 
 ![MD simulated diffuse scattering](/assets/images/20250805_Mac1_diffuse_crop.png){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
-
-## We are working to
-
-{% assign interests = site.research | sort: "index" %}
-
-{% for interest in interests %}
-### {{ interest.name }}
-
-{% assign parity = interest.index | modulo:2 %}
-{% if parity == 0 %}
-{% assign alignment = "right" %}
-{% else %}
-{% assign alignment = "left" %}
-{% endif %}
-
-![{{interest.image_alt}}]({{interest.image}}){:style="float: {{alignment}}; object-fit: contain; width: 35%; max-height: 50em; margin-left: 1em; margin-right: 1em;"}
-
-{{ interest.content }}
-{% endfor %}
