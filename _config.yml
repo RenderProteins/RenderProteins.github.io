@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The DiffUSE Project
+title: Render
 email: diffuse@astera.org
-description: The DiffUSE Project
+description: Make the invisible visible. Render proteins in motion.
 url: "https://renderproteins.github.io"
 twitter_username: username
 github_username: diff-use

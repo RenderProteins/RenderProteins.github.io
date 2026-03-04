@@ -8,31 +8,33 @@ toc_sticky: true
 ---
 
 
-## Unlocking Protein Dynamics
-Static structural biology has long been a key enabler of drug discovery and protein function understanding. But proteins are dynamic, and their functions are critically linked to these dynamics. However, our ability to measure, model, and encode these dynamics has been limited. 
+## Critical biology is invisible to static structures
 
-The diffUSE Project aims to unlock our understanding of protein dynamics at a scale never before possible.
+Function arises from conformational ensembles — but is interpreted using single, static structures. The biggest questions in human health demand that we understand not only what molecules look like, but how they move.
 
 ![diffuse scattering signals](/assets/images/diffuse_signals.png){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
 
-To unlock the next frontier of advances, we need new methods, more experimental data, and better ways to model and encode protein dynamics. However, we cannot do this on our own. By openly building tools and methods, we engage the entire community to contribute, enabling the scale and diversity of data needed to uncover biological principles. 
+To unlock the next frontier of advances, we need new methods, more experimental data, and better ways to model and encode protein dynamics. By openly building tools and methods, we engage the entire community to contribute, enabling the scale and diversity of data needed to uncover biological principles.
 
-Our first avenue is expanding the use of diffuse scattering: a largely overlooked signal measured by X-ray crystallography that could unlock our ability to measure protein dynamics. 
+## Our Research Questions
 
-The DiffUSE Project was co-developed with funders and scientists. The team includes both dedicated staff and institutional researchers to enable fast-paced infrastructure-building and specialized basic research. 
+**01** &nbsp; What data are we missing, and how do we accelerate the technologies to capture it?
 
-## How we are sharing our science
+**02** &nbsp; Where will dynamic structural data have the greatest impact in revealing biological function?
 
-- [The DiffUSE Project Logbook](http://diffuse.science/logbook): Catalog X-ray datasets, collect notes from synchrotron data collection, share reports from data processing, and post preliminary analysis without filters.
+**03** &nbsp; How do we build enabling tools that empower everyone — not just experts — to leverage dynamic structural information?
 
-- [The DiffUSE Data Management App](https://app.diffuse.science): Under active development, this site will function to document experiment processing with markdown, images, tables, and rich     metadata fields for comprehensive research tracking across datasets and beamlines.
+**04** &nbsp; How do we disseminate our tools and data to maximize scientific impact?
 
-- [Posts from our Scientists](https://diffuse.science/posts/):  Read direct dispatches from our distributed DiffUSE team.
+---
 
+*What makes a designed enzyme functional?*
+
+---
 
 ![MD simulated diffuse scattering](/assets/images/20250805_Mac1_diffuse_crop.png){:style="max-height:300px; display: block; margin-left: auto; margin-right: auto;"}
 
-## The DiffUSE Project is working to
+## We are working to
 
 {% assign interests = site.research | sort: "index" %}
 
