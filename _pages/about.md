@@ -11,10 +11,12 @@ toc_sticky: true
 
 ## Make the invisible visible
 
-Biology is a study of motion and change — yet we interpret it through static snapshots. Render is building the tools and infrastructure to make dynamic structural biology as routine, and ultimately more impactful, than static structural biology.
+Biology is a study of motion and change — yet we still rely on frozen snapshots to understand it. 
+
+Static structures can't tell us what makes a designed enzyme functional, how dynamics shape drug efficacy and resistance, or how motion itself can be engineered and optimized. These are the questions at the frontier of drug discovery, enzyme design, and disease research. Render is building the methods, tools, and infrastructure to make protein motion visible, measurable, and usable — so this frontier becomes accessible to endless biological questions.
 
 
-To unlock the next frontier of advances, we need new methods, more experimental data, and better ways to model and encode protein dynamics. By openly building tools and methods, we engage the entire community to contribute, enabling the scale and diversity of data needed to uncover biological principles.
+By building openly, we enable the entire community to generate high-quality dynamic data at the scale and diversity needed to uncover the fundamental principles of how biology moves.
 
 
 ## Four Pillars of Transformation
@@ -24,13 +26,13 @@ To unlock the next frontier of advances, we need new methods, more experimental 
   <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(99,102,241,.25); border-radius: 8px; padding: 1.5rem; background: rgba(99,102,241,.04);">
     <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #a5b4fc; margin-bottom: .5rem;">Methods</div>
     <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
-    <p style="margin: 0; line-height: 1.7;">Democratize dynamic structural biology methods so that capturing protein motion becomes routine — not a heroic effort confined to a handful of expert labs.</p>
+    <p style="margin: 0; line-height: 1.7;">Democratize dynamic structural biology methods so that capturing protein motion becomes routine.</p>
   </div>
 
   <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(99,102,241,.25); border-radius: 8px; padding: 1.5rem; background: rgba(99,102,241,.04);">
     <div style="font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; color: #a5b4fc; margin-bottom: .5rem;">Modeling</div>
     <h3 style="margin: 0 0 .75rem; font-size: 1.1rem;"></h3>
-    <p style="margin: 0; line-height: 1.7;">Model and predict conformational ensembles. Build interpretable models that reveal hidden structural states and enable functional prediction from dynamics.</p>
+    <p style="margin: 0; line-height: 1.7;">Model and predict conformational ensembles. Build interpretable models that reveal hidden structural states hidden in experimental data.</p>
   </div>
 
   <div style="flex: 1 1 calc(50% - 0.625rem); min-width: 260px; border: 1px solid rgba(99,102,241,.25); border-radius: 8px; padding: 1.5rem; background: rgba(99,102,241,.04);">
