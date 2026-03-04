@@ -16,12 +16,12 @@ Dynamic structural data opens the door to questions that static structures simpl
 
   <div style="border: 1px solid rgba(251,191,36,.3); border-radius: 8px; padding: 1.25rem 1.5rem; background: rgba(251,191,36,.04);">
     <p style="margin: 0 0 .4rem; font-weight: 700;">How do dynamics impact drug efficacy and resistance?</p>
-    <p style="margin: 0; color: #7ba8bc; line-height: 1.7;"></p>
+    <p style="margin: 0; color: #ffffff; line-height: 1.7;"></p>
   </div>
 
   <div style="border: 1px solid rgba(251,191,36,.3); border-radius: 8px; padding: 1.25rem 1.5rem; background: rgba(251,191,36,.04);">
     <p style="margin: 0 0 .4rem; font-weight: 700;">How can dynamics be deliberately engineered or optimized? </p>
-    <p style="margin: 0; color: #7ba8bc; line-height: 1.7;"></p>
+    <p style="margin: 0; color: #ffffff; line-height: 1.7;"></p>
   </div>
 
   <div style="border: 1px solid rgba(251,191,36,.3); border-radius: 8px; padding: 1.25rem 1.5rem; background: rgba(251,191,36,.04);">
@@ -40,22 +40,22 @@ Dynamic structural data opens the door to questions that static structures simpl
 
   <div style="border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.25rem 1.5rem; background: rgba(13,148,136,.04);">
     <p style="margin: 0 0 .4rem; font-weight: 700;">What data are we missing and why?</p>
-    <p style="margin: 0; color: #7ba8bc; line-height: 1.7;">Identify ways to accelerate technologies and algorithms to capture this data.</p>
+    <p style="margin: 0; color: #ffffff; line-height: 1.7;">Identify ways to accelerate technologies and algorithms to capture this data.</p>
   </div>
 
   <div style="border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.25rem 1.5rem; background: rgba(13,148,136,.04);">
     <p style="margin: 0 0 .4rem; font-weight: 700;">Where will dynamic structural data have the greatest impact in revealing biological function?</p>
-    <p style="margin: 0; color: #7ba8bc; line-height: 1.7;">Prioritizing impactful methods and data leading to scientific impact.</p>
+    <p style="margin: 0; color: #ffffff; line-height: 1.7;">Prioritizing impactful methods and data leading to scientific impact.</p>
   </div>
 
   <div style="border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.25rem 1.5rem; background: rgba(13,148,136,.04);">
     <p style="margin: 0 0 .4rem; font-weight: 700;">How do we build enabling tools that empower everyone to use this data, not just experts?</p>
-    <p style="margin: 0; color: #7ba8bc; line-height: 1.7;">Encoding, modeling, prediction, integration with other biological tools &amp; data.</p>
+    <p style="margin: 0; color: #ffffff; line-height: 1.7;">Encoding, modeling, prediction, integration with other biological tools &amp; data.</p>
   </div>
 
   <div style="border: 1px solid rgba(13,148,136,.25); border-radius: 8px; padding: 1.25rem 1.5rem; background: rgba(13,148,136,.04);">
     <p style="margin: 0 0 .4rem; font-weight: 700;">How do we disseminate our tools and data to maximize scientific impact?</p>
-    <p style="margin: 0; color: #7ba8bc; line-height: 1.7;">Creating infrastructure to democratize tools, algorithms, &amp; data.</p>
+    <p style="margin: 0; color: #ffffff; line-height: 1.7;">Creating infrastructure to democratize tools, algorithms, &amp; data.</p>
   </div>
 
 </div>
