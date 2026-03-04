@@ -1,33 +1,9 @@
-  - name: Nozomi Ando, Ph.D.
-    title: Professor - Cornell, Chemistry & Chemical Biology
-    photo: /assets/images/members/ando.jpg
-  - name: Prachee Avasthi, Ph.D.
-    title: Head of Open Science
-    photo: /assets/images/members/avasthi.jpg
   - name: Justin Biel, Ph.D.
     title: Software Engineer
     photo: /assets/images/members/biel.jpg
   - name: Andy Burnim, Ph.D.
     title: Project Manager
     photo: /assets/images/members/burnim.jpg
-  - name: Seemay Chou, Ph.D.
-    title: Interim Director
-    photo: /assets/images/members/chou.jpg
-  - name: James Fraser, Ph.D.
-    title: Professor - UCSF, Bioengineering
-    photo: /assets/images/members/Fraser.jpg
-  - name: James Holton, Ph.D.
-    title: Beamline Scientist - Lawrence Berkeley National Lab, Full Adjunct Professor - UCSF
-    photo: /assets/images/members/holton.jpg
-  - name: Joseph Lee
-    title: Software Engineer
-    photo: /assets/images/members/lee.jpg
-  - name: Steve Meisburger, Ph.D.
-    title: Staff Scientist - CHESS (Cornell High Energy Synchotron Source)
-    photo: /assets/images/members/meisburger.jpg
-  - name: Michael Wall, Ph.D.
-    title: Senior Scientist - Los Alamos National Laboratory
-    photo: /assets/images/members/wall.jpg
   - name: Stephanie Wankowicz, Ph.D.
     title: Assistant Professor - Vanderbilt, Molecular Physiology & Biophysics
     photo: /assets/images/members/Wankowicz.jpg
