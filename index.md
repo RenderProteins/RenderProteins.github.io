@@ -125,7 +125,7 @@ author_profile: false
 <div class="rn-hero">
   <div class="rn-eyebrow">From Static to Dynamic</div>
   <h1>Biology occurs in motion.<br>It's time we <em>render</em> it.</h1>
-  <p class="rn-sub">Render is building the stack — methods, tools, and infrastructure — to make protein motion visible, measurable, and usable so it can improve how we discover drugs, design enzymes, and understand disease at its root.</p>
+  <p class="rn-sub">Render is building the methods, tools, and infrastructure to make protein motion visible, measurable, and usable — transforming how we discover drugs, design biology, and understand disease at its root.</p>
   <div class="rn-actions">
     <a href="/about/" class="rn-btn-p">Explore the Initiative →</a>
     <a href="/research/" class="rn-btn-g">Why This Matters</a>
