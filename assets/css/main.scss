@@ -7,17 +7,19 @@
    DESIGN TOKENS
    ============================================================ */
 :root {
-  --bg:        #07080c;
-  --bg-card:   rgba(16, 18, 28, 0.65);
-  --indigo:    #6366f1;
-  --indigo-l:  #a5b4fc;
-  --violet:    #8b5cf6;
-  --txt:       #eef0f6;
-  --t2:        #9399b2;
-  --t3:        #5b6178;
-  --bdr:       rgba(147, 153, 178, 0.08);
-  --bdr-h:     rgba(99, 102, 241, 0.25);
-  --accent:    #e35821;
+  --bg:        #060e1a;
+  --bg-card:   rgba(4, 14, 32, 0.7);
+  --teal:      #0d9488;
+  --teal-l:    #2dd4bf;
+  --orange:    #c2410c;
+  --orange-l:  #fb923c;
+  --yellow:    #fbbf24;
+  --txt:       #e2f0f5;
+  --t2:        #7ba8bc;
+  --t3:        #3b6478;
+  --bdr:       rgba(13, 148, 136, 0.12);
+  --bdr-h:     rgba(13, 148, 136, 0.35);
+  --accent:    #fbbf24;
 }
 
 /* ============================================================
@@ -55,19 +57,19 @@ p, li, td, th {
 }
 
 strong { color: var(--txt); font-weight: 600; }
-em { color: var(--indigo-l); font-style: italic; }
+em { color: var(--teal-l); font-style: italic; }
 
 code, pre, .highlight {
   font-family: 'IBM Plex Mono', monospace !important;
   font-size: 0.82rem !important;
-  background: rgba(99, 102, 241, 0.06) !important;
+  background: rgba(13, 148, 136, 0.06) !important;
   border: 1px solid var(--bdr) !important;
   border-radius: 6px;
-  color: var(--indigo-l) !important;
+  color: var(--teal-l) !important;
 }
 
 a {
-  color: var(--indigo-l) !important;
+  color: var(--teal-l) !important;
   text-decoration: none;
   transition: color 0.2s;
   &:hover { color: var(--txt) !important; }
@@ -83,7 +85,7 @@ hr {
    NAVIGATION
    ============================================================ */
 .masthead {
-  background: rgba(7, 8, 12, 0.88) !important;
+  background: rgba(6, 14, 26, 0.88) !important;
   backdrop-filter: blur(24px) saturate(1.2);
   border-bottom: 1px solid var(--bdr) !important;
   box-shadow: none !important;
@@ -125,7 +127,7 @@ body .masthead .hidden-links {
   transition: color 0.25s !important;
 
   &:hover {
-    color: var(--indigo-l) !important;
+    color: var(--teal-l) !important;
     transform: none !important;
     font-weight: 600 !important;
     border-bottom: none !important;
@@ -252,13 +254,13 @@ body .masthead .hidden-links {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 0.72rem;
     letter-spacing: 0.12em;
-    color: var(--indigo) !important;
+    color: var(--teal) !important;
     font-weight: 500;
   }
 
   blockquote {
-    border-left: 3px solid var(--indigo);
-    background: rgba(99, 102, 241, 0.05);
+    border-left: 3px solid var(--teal);
+    background: rgba(13, 148, 136, 0.05);
     border-radius: 0 8px 8px 0;
     padding: 1rem 1.5rem;
     color: var(--t2);
@@ -270,7 +272,7 @@ body .masthead .hidden-links {
   em {
     font-family: 'Fraunces', serif;
     font-size: 1.1rem;
-    color: var(--indigo-l);
+    color: var(--teal-l);
   }
 }
 
@@ -320,12 +322,12 @@ body .masthead .hidden-links {
 }
 
 .toc .nav__title {
-  background: rgba(99, 102, 241, 0.12) !important;
+  background: rgba(13, 148, 136, 0.12) !important;
   font-family: 'IBM Plex Mono', monospace !important;
   font-size: 0.65rem !important;
   letter-spacing: 0.15em !important;
   text-transform: uppercase !important;
-  color: var(--indigo-l) !important;
+  color: var(--teal-l) !important;
   padding: 0.65rem 1rem;
   border-radius: 10px 10px 0 0;
 }
@@ -340,16 +342,16 @@ body .masthead .hidden-links {
   transition: background 0.15s, color 0.15s;
 
   &:hover {
-    background: rgba(99, 102, 241, 0.08) !important;
-    color: var(--indigo-l) !important;
+    background: rgba(13, 148, 136, 0.08) !important;
+    color: var(--teal-l) !important;
   }
 }
 
 .toc .active a {
-  background: rgba(99, 102, 241, 0.12) !important;
-  color: var(--indigo-l) !important;
+  background: rgba(13, 148, 136, 0.12) !important;
+  color: var(--teal-l) !important;
   font-weight: 600 !important;
-  border-left: 3px solid var(--indigo) !important;
+  border-left: 3px solid var(--teal) !important;
 }
 
 .sidebar__right.sticky { top: 100px !important; }
@@ -414,15 +416,15 @@ img.avatar {
 }
 
 .btn--primary {
-  background: var(--indigo) !important;
+  background: var(--teal) !important;
   color: #fff !important;
   border: none !important;
-  box-shadow: 0 2px 20px rgba(99, 102, 241, 0.2) !important;
+  box-shadow: 0 2px 20px rgba(13, 148, 136, 0.2) !important;
 
   &:hover {
-    background: #5558e8 !important;
+    background: #0b7d73 !important;
     transform: translateY(-2px) !important;
-    box-shadow: 0 8px 35px rgba(99, 102, 241, 0.35) !important;
+    box-shadow: 0 8px 35px rgba(13, 148, 136, 0.35) !important;
   }
 }
 
@@ -435,7 +437,7 @@ img.avatar {
   color: var(--t3) !important;
 
   a, p, li { color: var(--t3) !important; font-size: 0.8rem !important; }
-  a:hover { color: var(--indigo-l) !important; }
+  a:hover { color: var(--teal-l) !important; }
 }
 
 /* ============================================================
@@ -458,7 +460,7 @@ img.avatar {
   font-size: 0.68rem;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: var(--indigo);
+  color: var(--teal);
   font-weight: 500;
   display: block;
   margin-bottom: 0.6rem;
@@ -471,4 +473,4 @@ img.avatar {
 }
 
 /* skip links / focus */
-a:focus { outline: 2px solid var(--indigo); outline-offset: 3px; }
+a:focus { outline: 2px solid var(--teal); outline-offset: 3px; }
